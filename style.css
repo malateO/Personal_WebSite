@@ -6,7 +6,9 @@
 body{
     font-family: "Poppins", sans-serif;
     --color1: #fff;
-    --color2: #181717;
+    --color2: #9ec1c338;
+    --color3: rgba(20, 13, 13, 0.634);
+    --color4: #9ec1c3;
 }
 .nav-bar{
     width: 100%;
@@ -15,11 +17,12 @@ body{
     align-items: center;
     list-style: none;
     position: relative;
-    background-color: var(--color2);
-    padding: 12px 20px;
+    background-color: var(--color4);
+    padding: 12px 30px;
 }
 .logo img{
     width: 60px;
+    margin-top: 4px;
 }
 .menu{
     display: flex;
@@ -30,11 +33,11 @@ body{
 .menu li a{
     display: inline-block;
     text-decoration: none;
-    color: var(--color1);
+    color: var(--color3);
     text-align: center;
     transition: 0.15s ease-in-out;
     position: relative;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .menu li a::after{
     content: "";
@@ -68,7 +71,7 @@ body{
 #check{
     display: none;
 }
-@media(max-width: 610px){
+@media(max-width: 800px){
     .menu{
         flex-direction: column;
         align-items: center;
@@ -80,6 +83,7 @@ body{
         right: -100%;
         z-index: 100;
         background-color: var(--color2);
+        backdrop-filter: blur(10px);
         transition: all 0.2s ease-in-out;
     }
     .menu li {
@@ -93,5 +97,13 @@ body{
     }
     #check:checked ~ .menu {
         right: 0;
+    }
+    #check:checked ~ .open-menu{
+        display: none;
+    }
+}
+@media(max-width: 470px){
+    .menu{
+        width: 100%;
     }
 }
