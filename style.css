@@ -13,7 +13,7 @@ body{
 .nav-bar{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
     position: relative;
@@ -112,6 +112,18 @@ body{
         backdrop-filter: blur(8px);
         transition: all 0.2s ease-in-out;
     }
+    .nav-bar{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        position: relative;
+        background-color: var(--color4);
+        padding: 12px 30px;
+        border: none;
+        margin-bottom: -1px;
+    }
     .menu li {
         margin-top: 40px;
     }
@@ -126,10 +138,5 @@ body{
     }
     #check:checked ~ .open-menu{
         display: none;
-    }
-}
-@media(max-width: 470px){
-    .menu{
-        width: 100%;
     }
 }
