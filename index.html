@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Oliver-Dev</title>
 </head>
 <body>
     <header>
         <ul class="nav-bar">
-            <li class="logo"><a href="#"><img src="./images/logo.svg" alt="logo"></a></li>
+            <li class="logo"><a href="#"><img src="./assets/logo.svg" alt="logo"></a></li>
             <input type="checkbox" id="check">
             <span class="menu">
                 <li><a href="#Home">Home</a></li>
@@ -32,9 +33,42 @@
             </svg>
         </div>
     </div>
-    <div id="Home">
-        <h1>Hello World</h1>
-    </div>
+    <section id="profile">
+        <div class="profile-wrapper">
+            <div class="section_pic-container">
+                <img src="assets/astronaut.svg" alt="Profile Picture">
+            </div>
+        </div>
+            <div class="section_text">
+                <p class="section_text-p1">Hello, I'm</p>
+                <h1 class="title">Oliver Malate</h1>
+                <p class="section_text-p2">Web Developer</p>
+                <div class="btn-container">
+                    <button 
+                    class="btn btn-color-2"
+                    onclick="window.open('./assets/resume.pdf')"
+                    >Download CV</button>
+                    <button 
+                    class="btn btn-color-1"
+                    onclick="location.href = './#contact'"
+                    >Contact Info</button>
+                </div>
+                <div id="socials-container">
+                    <img
+                     src="./assets/linkedin.png" 
+                     alt="My LinkedIn profile"
+                     class="icon"
+                     onclick="location.href = 'https://linkedin.com'"
+                     />
+                     <img
+                     src="./assets/github.png" 
+                     alt="My Github profile"
+                     class="icon"
+                     onclick="location.href = 'https://github.com/malateO'"
+                     />
+                </div>
+            </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
