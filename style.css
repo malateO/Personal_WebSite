@@ -121,7 +121,7 @@ section {
   box-sizing: border-box;
   min-height: fit-content;
 }
-section-container {
+.section-container {
   display: flex;
 }
 /* PROFILE SECTIONS */
@@ -270,7 +270,7 @@ section-container {
     transform: translateX(320px);
   }
 }
-.section_pic-container {
+.animated_pic-container {
   border: none;
   justify-content: center;
   align-items: center;
@@ -375,4 +375,44 @@ section-container {
 }
 .btn-container {
   gap: 1rem;
+}
+
+/* About Section */
+#about {
+  position: relative;
+}
+.about-containers {
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+.section__pic-container {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  margin: auto 0;
+}
+.about-pic {
+  border-radius: 2rem;
+}
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+.section-container {
+  gap: 3rem;
+  height: 80%;
 }
