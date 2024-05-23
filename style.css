@@ -416,3 +416,26 @@ section {
   gap: 3rem;
   height: 80%;
 }
+.tech_skill-container {
+  display: flex;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  border-radius: 2rem;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem;
+  margin-top: 1.5rem;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  border-radius: 2rem;
+}
+.fa-brands {
+  font-size: 50px;
+}
