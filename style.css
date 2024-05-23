@@ -16,7 +16,7 @@ html {
   scroll-behavior: smooth;
 }
 p {
-  color: rgb(181, 181, 181);
+  color: rgb(104, 103, 103);
 }
 .nav-bar {
   width: 100%;
@@ -406,7 +406,7 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: var(--color4);
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -417,19 +417,33 @@ section {
   height: 80%;
 }
 .tech_skill-container {
-  display: flex;
+  flex-direction: column;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   border-radius: 2rem;
   align-items: center;
-  justify-content: space-around;
-  padding: 3rem;
+  padding: 1rem;
   margin-top: 1.5rem;
+  background: var(--color4);
+}
+.skill_title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1em;
+  padding-bottom: 1rem;
 }
 .icon-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  padding: 4px;
   width: 100px;
   height: 100px;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -437,5 +451,15 @@ section {
   border-radius: 2rem;
 }
 .fa-brands {
-  font-size: 50px;
+  font-size: 40px;
+  display: block;
+  color: #8b8b8b;
+}
+.icon-name {
+  display: block;
+  font-size: small;
+}
+.tech_skill-title,
+.fa-solid {
+  order: -1;
 }
