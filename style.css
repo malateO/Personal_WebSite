@@ -116,7 +116,7 @@ p {
 /* SECTIONS */
 section {
   padding-top: 4vh;
-  height: 90vh;
+  height: 100vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -470,12 +470,12 @@ section {
   position: relative;
 }
 .projects__container {
+  margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  padding: 1rem;
 }
 .project_container {
   display: flex;
@@ -503,4 +503,9 @@ section {
 .project-subtitle {
   margin: 1rem auto;
   color: rgb(86, 82, 82);
+}
+/* CONTACT SECTION */
+
+#contact {
+  position: relative;
 }
