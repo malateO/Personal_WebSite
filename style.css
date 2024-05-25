@@ -116,13 +116,15 @@ p {
 /* SECTIONS */
 section {
   padding-top: 4vh;
-  height: 96vh;
+  height: 90vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
 .section-container {
   display: flex;
+  gap: 3rem;
+  height: 90%;
 }
 /* PROFILE SECTIONS */
 #profile {
@@ -411,10 +413,7 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
-}
-.section-container {
-  gap: 3rem;
-  height: 80%;
+  cursor: default;
 }
 .tech_skill-container {
   flex-direction: column;
@@ -449,6 +448,7 @@ section {
 }
 .icon-container:hover .fa-brands {
   font-size: 50px;
+  cursor: pointer;
 }
 .fa-brands {
   font-size: 40px;
@@ -463,4 +463,40 @@ section {
 .tech_skill-title,
 .fa-solid {
   order: -1;
+}
+
+/* PROJECT SECTION */
+#projects {
+  position: relative;
+}
+.projects__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1rem;
+}
+.project_container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+}
+.projects_img-container {
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-img {
+  border-radius: 2rem;
+  width: 300px;
+  height: 100%;
+  border: rgb(53, 53, 53) 1px solid;
+  border-color: rgb(163, 163, 163);
 }
