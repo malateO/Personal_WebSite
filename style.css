@@ -500,3 +500,7 @@ section {
   border: rgb(53, 53, 53) 1px solid;
   border-color: rgb(163, 163, 163);
 }
+.project-subtitle {
+  margin: 1rem auto;
+  color: rgb(86, 82, 82);
+}
