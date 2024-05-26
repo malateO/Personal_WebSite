@@ -10,7 +10,8 @@ body {
   --color1: #ffffff;
   --color2: #51d4de58;
   --color3: #140d0da2;
-  --color4: #94dedef3;
+  --color4: #67c5c5f3;
+  background: #e3edff;
 }
 html {
   scroll-behavior: smooth;
@@ -508,4 +509,42 @@ section {
 
 #contact {
   position: relative;
+}
+
+.form__container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  /* border: 1px solid black; */
+}
+.form__container form {
+  width: 600px;
+  text-align: center;
+}
+form .input-box {
+  display: flex;
+  justify-content: space-between;
+}
+.input-box .input-field {
+  width: 48.5%;
+}
+.field .item {
+  width: 100%;
+  padding: 18px;
+  background: transparent;
+  border: 2px solid #0ef;
+  outline: none;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #000000;
+  margin: 12px 0;
+}
+.field .item::placeholder {
+  color: rgba(111, 111, 111, 0.968);
+}
+form .textarea-field .item {
+  resize: none;
 }
