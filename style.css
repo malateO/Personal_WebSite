@@ -509,6 +509,9 @@ section {
 
 #contact {
   position: relative;
+  display: block;
+  align-items: center;
+  justify-content: center;
 }
 
 .form__container {
@@ -516,8 +519,6 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: auto;
   /* border: 1px solid black; */
 }
 .form__container form {
