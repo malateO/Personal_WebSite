@@ -545,6 +545,16 @@ form .input-box {
 .field .item::placeholder {
   color: rgba(111, 111, 111, 0.968);
 }
+.field .error-text {
+  font-size: 12.5px;
+  color: #d93025;
+  text-align: left;
+  margin: -7px 0 10px;
+  display: none;
+}
 form .textarea-field .item {
   resize: none;
+}
+form .textarea-field .error-text {
+  margin-top: -11px;
 }
