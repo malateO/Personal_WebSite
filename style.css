@@ -30,7 +30,7 @@ a,
 
 /* DESKTOP NAV */
 
-nav,
+/* nav,
 .nav-links {
   display: flex;
 }
@@ -66,11 +66,11 @@ a:hover {
 
 .logo {
   cursor: pointer;
-}
+} */
 
 /* HAMBURGER MENU */
 
-#hamburger-nav {
+/* #hamburger-nav {
   display: none;
 }
 
@@ -142,8 +142,8 @@ a:hover {
 }
 .hamburger-icon span:first-child {
   transform: none;
-}
-/* .nav-bar {
+} */
+.nav-bar {
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -156,30 +156,30 @@ a:hover {
   margin-bottom: -1px;
   height: 13vh;
   font-size: 1.2rem;
-} */
-/* .logo img {
+}
+.logo img {
   width: 60px;
   margin-top: 15px;
-} */
-/* .menu {
+}
+.menu {
   display: flex;
-} */
-/* .menu li {
+}
+.menu li {
   padding-left: 30px;
-} */
-/* .menu li a {
+}
+.menu li a {
   display: inline-block;
   text-decoration: none;
   color: var(--color3);
   text-align: center;
   transition: 0.15s ease-in-out;
   position: relative;
-} */
-/* .menu li a:hover {
+}
+.menu li a:hover {
   color: rgb(116, 111, 111);
   text-decoration-color: rgb(181, 181, 181);
-} */
-/* .menu li a::after {
+}
+.menu li a::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -188,30 +188,30 @@ a:hover {
   height: 1px;
   background-color: var(--color1);
   transition: 0.15s ease-in-out;
-} */
-/* .menu li a:hover:after {
+}
+.menu li a:hover:after {
   width: 100%;
-} */
-/* .open-menu,
+}
+.open-menu,
 .close-menu {
   position: absolute;
   color: var(--color1);
   cursor: pointer;
   font-size: 1.5rem;
   display: none;
-} */
-/* .open-menu {
+}
+.open-menu {
   top: 50%;
   right: 20px;
   transform: translateY(-50%);
-} */
-/* .close-menu {
+}
+.close-menu {
   top: 31px;
   right: 20px;
 }
 #check {
   display: none;
-} */
+}
 .wave-container {
   position: relative;
   border: none;
