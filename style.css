@@ -10,6 +10,7 @@
   --color2: #51d4de58;
   --color3: #140d0da2;
   --color4: #67c5c5f3;
+  --color5: #e3edff0b;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -61,11 +62,16 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
+  cursor: pointer;
 }
 
-.logo {
-  cursor: pointer;
+.logo-head .fa-space-awesome {
+  font-size: 30px;
+  color: #168cc8;
+}
+
+.logo-head .fa-space-awesome:hover {
+  color: #1959a1;
 }
 
 /* HAMBURGER MENU */
@@ -151,13 +157,15 @@ a:hover {
   align-items: center;
   list-style: none;
   position: relative;
-  background-color: var(--color4);
+  background-color: var(--color5);
+  backdrop-filter: blur(5px);
   padding: 12px 30px;
   border: none;
   margin-bottom: -1px;
   height: 13vh;
   font-size: 1.2rem;
 }
+
 .logo img {
   width: 60px;
   margin-top: 15px;
