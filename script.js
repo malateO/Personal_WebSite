@@ -1,10 +1,15 @@
-function toggleMenu() {
-  const menu = document.querySelector(".menu-links");
-  const icon = document.querySelector(".hamburger-icon");
+function closeMenu() {
+  const menuItems = document.querySelectorAll(".menu li a");
+  const checkBox = document.getElementById("check");
 
-  menu.classList.toggle("open");
-  icon.classList.toggle("open");
+  menuItems.forEach((items) => {
+    items.addEventListener("click", () => {
+      checkBox.checked = false;
+    });
+  });
 }
+
+closeMenu();
 
 const iconHoverColor = () => {
   const faBrands = document.querySelectorAll(".fa-brands");
