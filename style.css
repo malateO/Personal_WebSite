@@ -185,8 +185,8 @@ a:hover {
   position: relative;
 }
 .menu li a:hover {
-  color: rgb(116, 111, 111);
-  text-decoration-color: rgb(181, 181, 181);
+  color: rgba(22, 6, 244, 0.364);
+  text-decoration-color: rgb(71, 211, 243);
 }
 .menu li a::after {
   content: "";
@@ -195,7 +195,7 @@ a:hover {
   left: 0;
   width: 0;
   height: 1px;
-  background-color: var(--color1);
+  background-color: var(--color2);
   transition: 0.15s ease-in-out;
 }
 .menu li a:hover:after {
