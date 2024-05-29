@@ -25,7 +25,7 @@
     background-color: var(--color6);
     transition: all 0.2s ease-in-out;
   }
-  .nav-bar {
+  /* .nav-bar {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -37,7 +37,7 @@
     padding: 12px 30px;
     border: none;
     margin-bottom: -1px;
-  }
+  } */
   .menu li {
     margin-top: 40px;
   }
