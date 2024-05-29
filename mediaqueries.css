@@ -9,6 +9,10 @@
   .tech_skill-container {
     flex-wrap: wrap;
   }
+
+  .projects__container {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -114,5 +118,17 @@
     width: auto;
     height: 46vw;
     justify-content: center;
+  }
+
+  .section_text-p2 {
+    font-size: 1.2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .text-container {
+    text-align: justify;
   }
 }
