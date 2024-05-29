@@ -13,6 +13,10 @@
   .projects__container {
     justify-content: center;
   }
+
+  #contact {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -82,13 +86,26 @@
     margin-top: 0;
     height: fit-content;
   }
+
+  .section__pic-container {
+    width: auto;
+    height: 30vw;
+    justify-content: center;
+  }
+
+  #contact {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 600px) {
   #contact,
   footer {
     display: block;
-    height: 40vh;
+  }
+
+  footer {
+    margin-top: 2rem;
   }
 
   #profile {
